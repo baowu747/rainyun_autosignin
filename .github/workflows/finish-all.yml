@@ -1,8 +1,6 @@
 name: 完成全部可以api完成的任务
 
 on:
-  schedule:
-    - cron: "13 9 * * *"
   workflow_dispatch:
     inputs:
       trigger:
